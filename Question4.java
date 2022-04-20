@@ -18,6 +18,18 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Enter Inverted Mirrored Right Triangle Pattern Rows = ");
+		int rows = in.nextInt();
+		in.close();
+		System.out.println("-- Printing Inverted Mirrored Right Triangle Star Pattern --");
+		int n,i,j = rows; 
+		for (i = rows; i >= 1; i--)
+    {
+        for (j = 1; j <= i; j++) {
+            System.out.print("*");
+        }
+ 
+        System.out.print("\n");
+    }
   }
 }
