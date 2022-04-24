@@ -24,12 +24,14 @@ public class Question4
 		//System.out.println("-- Printing Inverted Mirrored Right Triangle Star Pattern --");
 		int n,i,j = rows; 
 		for (i = rows; i >= 1; i--)
-    {
-        for (j = 1; j <= i; j++) {
-            System.out.print("*");
-        }
- 
-        System.out.print("\n");
-    }
+		{
+			for (j = 1; j <= i; j++) 
+			{
+            		System.out.print("*");
+			}
+		}
+	  {
+		  System.out.print("\n");
+	  }
   }
 }
