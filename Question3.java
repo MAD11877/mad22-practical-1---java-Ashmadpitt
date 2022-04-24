@@ -18,6 +18,6 @@ public class Question3
     in.close();
     int output = number*number1;
     //System.out.println("Output: " + number + "*" + number1 + "=" + output);
-    System.out.println(output)
+    System.out.println(output);
   }
 }
