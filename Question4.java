@@ -18,10 +18,10 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter Mirrored Right Triangle Pattern Rows = ");
+    //System.out.print("Enter Mirrored Right Triangle Pattern Rows = ");
 		int rows = in.nextInt();
 		in.close();
-		System.out.println("-- Printing Inverted Mirrored Right Triangle Star Pattern --");
+		//System.out.println("-- Printing Inverted Mirrored Right Triangle Star Pattern --");
 		int n,i,j = rows; 
 		for (i = rows; i >= 1; i--)
     {
