@@ -12,21 +12,25 @@ public class Question4
      *     ****
      *     ***
      *     **
-     *     *
+     *     * 
      * 
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
      Scanner in = new Scanner(System.in);
     //System.out.print("Enter Mirrored Right Triangle Pattern Rows = ");
-	int n,i,j = rows;
-	  
-	for (i = rows; i >= 1; i--)
-	{
-		for (j = 1; j <= i; j++) 
-	{
-			System.out.print("*");
-	}
-		System.out.print("\n");
-	}  
+		int rows = in.nextInt();
+		in.close();
+		//System.out.println("-- Printing Inverted Mirrored Right Triangle Star Pattern --");
+		int n,i,j = rows; 
+		for (i = rows; i >= 1; i--)
+		{
+			for (j = 1; j <= i; j++) 
+			{
+            		System.out.print("*");
+			}
+		}
+	  {
+		  System.out.print("\n");
+	  }
   }
 }

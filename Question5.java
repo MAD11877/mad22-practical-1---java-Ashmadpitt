@@ -28,11 +28,11 @@ public class Question5
      
     Scanner in = new Scanner(System.in);
     //https://javatutoring.com/java-mode-program/
-    System.out.println("enter a number");
+    //System.out.println("enter a number");
     int n = in.nextInt(),c;
     int [] a = new int[n];
     int [] b = new int[n];
-    System.out.println("enter "+n+" elements");
+    //System.out.println("enter "+n+" elements");
     //double sum = 0;
     for(int i = 0;i <n;i++)
     {
@@ -65,7 +65,7 @@ public class Question5
         if(b[i] >= m)
                 m = b[i];
       }
-      System.out.println("mode: "); 
+      //System.out.println("mode: "); 
       for(int i = 0;i <n;i++)
       {
         if(b[i] == m)
